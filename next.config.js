@@ -20,3 +20,7 @@ const plugins = [
 ];
 
 module.exports = composePlugins(...plugins)(nextConfig);
+
+module.exports = {
+  env: {},
+};
